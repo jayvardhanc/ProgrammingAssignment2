@@ -21,8 +21,8 @@ makeCacheMatrix <- function(x=matrix()) {
 
 }
 
-## cacheSOlve takes an instance of the makeCacheMatrix to get the stored matrix and calculates its inverse
-## The inverse is stored using the setinverse function inside makeCacheMatrix. As a result, it finds that the inverse 
+## cacheSolve takes an instance of the makeCacheMatrix to get the stored matrix and calculates its inverse
+## The inverse is stored using the setinverse function inside makeCacheMatrix. As a result, if it finds that the inverse 
 ## is already calulated then it skips the computation and returns the stored value
 
 cacheSolve <- function(x) {
